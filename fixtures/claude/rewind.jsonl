@@ -1,0 +1,4 @@
+{"type":"user","uuid":"u1","parentUuid":null,"timestamp":"2026-01-01T00:00:00.000Z","message":{"role":"user","content":"go"}}
+{"type":"assistant","uuid":"u2","parentUuid":"u1","timestamp":"2026-01-02T00:00:00.000Z","message":{"role":"assistant","id":"msg_u2","content":[{"type":"text","text":"The active path is fine."}]}}
+{"type":"assistant","uuid":"u3","parentUuid":"u2","timestamp":"2026-01-03T00:00:00.000Z","message":{"role":"assistant","id":"msg_u3","content":[{"type":"text","text":"A quiet ending stays quiet."}]}}
+{"type":"assistant","uuid":"u9","parentUuid":"u1","timestamp":"2026-01-02T12:00:00.000Z","message":{"role":"assistant","id":"msg_u9","content":[{"type":"text","text":"This abandoned branch is a tapestry of excuses. It is also load-bearing."}]}}

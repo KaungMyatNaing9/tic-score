@@ -1,0 +1,8 @@
+node_modules/
+agent-tools/
+dist/
+*.tgz
+.DS_Store
+tic-score-card.svg
+tic-score-card.png
+*.tsbuildinfo
