@@ -1,0 +1,38 @@
+{
+  "name": "tic-score",
+  "version": "0.1.0",
+  "description": "Score a coding agent's verbal tics from local session logs. Nothing is uploaded.",
+  "license": "MIT",
+  "author": "Kaung (https://github.com/KaungMyatNaing9)",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "tic-score": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "ROADMAP.md",
+    "docs/LOG_FORMATS.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.test.json --noEmit",
+    "lint": "biome check .",
+    "test": "npm run build && npm run typecheck && node --experimental-strip-types --test test/*.test.ts",
+    "measure": "npm run build && node --experimental-strip-types scripts/measure.ts",
+    "prepack": "npm run build"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.7",
+    "@types/node": "^22.19.1",
+    "typescript": "^5.9.3"
+  }
+}

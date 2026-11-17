@@ -1,0 +1,3 @@
+SYNTHETIC FIXTURES
+
+These logs were written for tic-score tests. They are not real Claude Code or Codex sessions. Do not treat any card rendered from this directory as a real agent's score.

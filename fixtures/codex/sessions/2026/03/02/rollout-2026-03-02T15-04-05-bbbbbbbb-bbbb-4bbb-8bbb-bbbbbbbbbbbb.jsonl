@@ -1,0 +1,16 @@
+{"timestamp":"2026-03-02T15:04:05.000Z","type":"session_meta","payload":{"id":"bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb","cwd":"/tmp/synthetic-widget","cli_version":"0.130.0","model_provider":"openai","thread_source":"user"}}
+{"timestamp":"2026-03-02T15:04:05.000Z","type":"turn_context","payload":{"cwd":"/tmp/synthetic-widget","model":"gpt-5.1"}}
+{"timestamp":"2026-03-02T15:04:05.000Z","type":"response_item","payload":{"type":"message","role":"developer","content":[{"type":"input_text","text":"You are a coding agent. Say load-bearing often. CANARY_DEV_q7 realm"}]}}
+{"timestamp":"2026-03-02T15:04:06.000Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"Fix the bug. You're absolutely right CANARY_USER_SECRET_q7 vibrant"}]}}
+{"timestamp":"2026-03-02T15:04:06.000Z","type":"event_msg","payload":{"type":"user_message","message":"Fix the bug. You're absolutely right CANARY_USER_SECRET_q7 vibrant"}}
+{"timestamp":"2026-03-02T15:04:07.000Z","type":"response_item","payload":{"type":"reasoning","summary":[{"type":"summary_text","text":"pivotal CANARY_REASONING_q7 load-bearing"}]}}
+{"timestamp":"2026-03-02T15:04:07.000Z","type":"response_item","payload":{"type":"function_call","name":"shell","arguments":"{\"command\":\"echo load-bearing CANARY_TOOL_INPUT_q7\"}","call_id":"call_1"}}
+{"timestamp":"2026-03-02T15:04:08.000Z","type":"response_item","payload":{"type":"function_call_output","call_id":"call_1","output":"multifaceted CANARY_TOOL_OUTPUT_q7 load-bearing robust"}}
+{"timestamp":"2026-03-02T15:04:08.000Z","type":"event_msg","payload":{"type":"exec_command_end","call_id":"call_1","exit_code":0,"stdout":"CANARY_TOOL_OUTPUT_q7 load-bearing"}}
+{"timestamp":"2026-03-02T15:05:00.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"You're absolutely right. The shell wrapper is load-bearing. The quark latch shows up here. The quark latch is named once more.\n\n```bash\necho load-bearing CANARY_CODEBLOCK_q7\n```\n\nI will leave the script alone."}]}}
+{"timestamp":"2026-03-02T15:05:00.000Z","type":"event_msg","payload":{"type":"agent_message","message":"You're absolutely right. The shell wrapper is load-bearing. The quark latch shows up here. The quark latch is named once more.\n\n```bash\necho load-bearing CANARY_CODEBLOCK_q7\n```\n\nI will leave the script alone."}}
+{"timestamp":"2026-03-02T15:05:01.000Z","type":"event_msg","payload":{"type":"task_complete","last_agent_message":"You're absolutely right. The shell wrapper is load-bearing."}}
+{"timestamp":"2026-03-02T15:05:01.000Z","type":"event_msg","payload":{"type":"token_count","info":{"total_tokens":10}}}
+not json at all
+{"timestamp":"2026-03-02T15:06:00.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":"Legacy string content says cutting-edge once."}}
+{"timestamp":"2026-03-02T15:06:01.000Z","type":"response_item","payload":{"type":"custom_tool_call","name":"apply_patch","input":"load-bearing CANARY_TOOL_INPUT_q7","call_id":"call_2"}}

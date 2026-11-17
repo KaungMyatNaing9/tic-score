@@ -1,0 +1,2 @@
+{"timestamp":"2026-03-10T00:00:00.000Z","type":"session_meta","payload":{"id":"topic-session","cwd":"/tmp/synthetic-widget","cli_version":"0.130.0"}}
+{"timestamp":"2026-03-10T00:01:00.000Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"The zephyr widget blinks. The zephyr widget blinks again. A zephyr widget sits on the desk. Another zephyr widget waits. The zephyr widget is a topic, not a habit. One zephyr widget is enough. This zephyr widget stays in a single note. The last zephyr widget closes the note."}]}}

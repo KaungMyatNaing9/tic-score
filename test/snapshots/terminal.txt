@@ -1,0 +1,33 @@
+┌──────────────────────────────────────────────────────────────────┐
+│ TIC SCORE                                                     63 │
+│ Tic-forward                                                      │
+│ Readers can hear the model.                                      │
+│                                                                  │
+│ Your agent said "load-bearing" 15 times across 12 sessions.      │
+│                                                                  │
+│ phrase                                 /1k  times                │
+│ load-bearing             ##########    2.0     15                │
+│ You're absolutely right  ###-------    0.7      5                │
+│ delve                    ###-------    0.5      4                │
+│ Great question           ##--------    0.4      3                │
+│ Let me                   ###-------    0.7      5                │
+│ * quark latch            #####-----    0.9      7                │
+│ * found in your logs, not on the built-in list                   │
+│                                                                  │
+│ 12 sessions · 7,461 assistant words                              │
+│ 2026-01-02 → 2026-06-01 · claude 6 · codex 6                     │
+│ score = round(100 × (1 − e^(−C / 8)))                            │
+│ C = 7.68 curated + 0.38 discovered                               │
+│ Score counts every curated tic, not only the rows above.         │
+│                                                                  │
+│ After 2026-04-15: score 89 → 7                                   │
+│ load-bearing                4.6 →    0.0  down 100%              │
+│ You're absolutely right     1.5 →    0.0  down 100%              │
+│ delve                       0.6 →    0.5  down 23%               │
+│ Great question              0.9 →    0.0  down 100%              │
+│ Let me                      1.5 →    0.0  down 100%              │
+│ quark latch                 2.2 →    0.0  down 100%              │
+│ 1 message had no timestamp and was left out of the comparison.   │
+│                                                                  │
+│ Counts and phrases only. No transcript text leaves this machine. │
+└──────────────────────────────────────────────────────────────────┘
